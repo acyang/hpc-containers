@@ -1,6 +1,6 @@
 # docker build -t centos-mpich:omb-latest .
 
-ARG base_image="hpc-centos:mpich-latest"
+ARG base_image="acyang/hpc-centos:mpich-latest"
 FROM "$base_image"
 
 LABEL maintainer "An-Cheng Yang<acyang0903@gmail.com>"

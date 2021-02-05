@@ -1,6 +1,6 @@
 # docker build -t centos-openmpi:omb-latest .
 
-ARG base_image="hpc-centos:openmpi-latest"
+ARG base_image="acyang/hpc-centos:openmpi-latest"
 FROM "$base_image"
 
 LABEL maintainer "An-Cheng Yang<acyang0903@gmail.com>"
